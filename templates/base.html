@@ -13,13 +13,20 @@
     href="https://img.icons8.com/cute-clipart/64/000000/sun.png">
   <title>Weather in Your City</title>
 
+  <style>
+    body {
+      background-color: #1a1a1ac5;
+      color: #f5f5f5;
+    }
+  </style>
+
 </head>
 
 <body>
-
-  {% block content %}
-  {% endblock content %}
-
+  <div style="height: 100vh">
+    {% block content %}
+    {% endblock content %}
+  </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
